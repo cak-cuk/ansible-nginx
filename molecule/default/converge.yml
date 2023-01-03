@@ -5,7 +5,7 @@
     - name: Getting ssl dhparams status
       ansible.builtin.stat:
         path: /etc/ssl/dhparams.pem
-        register: dhparams
+      register: dhparams
 
     - name: Creating ssl dhparams cert
       ansible.builtin.command: openssl dhparam -out /etc/nginx/ssl-dhparams.pem 4096

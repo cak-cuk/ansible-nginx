@@ -1,0 +1,6 @@
+---
+roles:
+  - name: nginxinc.nginx
+    source: https://galaxy.ansible.com
+  - name: nginxinc.nginx_config
+    source: https://galaxy.ansible.com

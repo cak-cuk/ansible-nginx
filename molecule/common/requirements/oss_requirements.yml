@@ -1,4 +1,6 @@
 ---
 roles:
   - name: nginxinc.nginx
-    version: 0.23.2
+    source: https://galaxy.ansible.com
+  - name: nginxinc.nginx_config
+    source: https://galaxy.ansible.com

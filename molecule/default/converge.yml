@@ -135,7 +135,7 @@
                 client_header_timeout: 60s
                 client_max_body_size: 1m
                 connection_pool_size: 256
-                default_type: application/octet-stream 
+                default_type: application/octet-stream
                 directio: false
                 directio_alignment: 512
                 disable_symlinks:
